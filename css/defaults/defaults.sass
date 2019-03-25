@@ -1,0 +1,159 @@
+/* Default Section */
+
+html, body
+  padding: 0
+  margin: 0
+  outline: 0
+
+body
+  background-color: black
+  font-family: input-sans, sans-serif
+  font-style: normal
+  font-weight: 100
+
+p, h1, h2, h3, h4, h5
+  color: $font
+
+a
+  color: $font
+  text-decoration: none
+  font-weight: 700
+
+  &:hover
+    color: $secondary
+
+ul
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+li
+  margin: 0
+  padding: 0
+
+
+header
+  height: $header-height
+  background-color: $bg
+  position: relative
+  //border-bottom: 2px solid $secondary
+
+  .icon
+    position: absolute
+    top: 8%
+    left: 5%
+    width: 50px
+
+  .hero-img
+    width: 50%
+    height: 100%
+    background: url(../images/hero_bg.jpg) no-repeat
+    background-size: cover
+
+  .hero-banner
+    position: absolute
+    top: 60%
+    left: 50%
+    transform: translate(-50%, -60%)
+    margin: 0 auto
+    text-align: center
+    font-weight: 700
+
+    h1, h2
+      margin: 0
+
+    h1
+      font-size: 1.8em
+    h2
+      font-size: 1.4em
+
+  .nav
+    position: absolute
+    top: 10%
+    right: 50%
+    transform: translate(50%, 10%)
+    margin: 0 auto
+    text-align: center
+    font-size: 1.3em
+    z-index: 10
+
+    line
+      stroke: $font
+      stroke-width: 5px
+
+    .nav-list
+      white-space: nowrap
+      padding: 5px
+
+      li
+        display: inline-block
+        margin: 0 20px
+
+        a
+          display: block
+          margin: 0
+          padding: 2px 10px
+
+      .svg
+        display: none
+
+
+footer
+  font-weight: 700
+  font-size: 1.2em
+  background-color: $bg
+  height: $footer-height
+  display: flex
+  justify-content: center
+  align-items: center
+  //border-top: 2px solid $secondary
+
+  a
+    margin: 0 20px
+
+.container
+  //max-width: 1920px
+  width: 100%
+  margin: 0 auto
+
+  p, h1, h2
+    color: $font-secondary
+
+.column
+  display: flex
+
+  height: 500px
+  width: 100%
+
+  .img
+    width: 50%
+
+  .row
+    width: 32%
+    padding: 0 50px
+
+.text
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  width: 60%
+  margin: 0 auto
+
+  h2
+    color: $secondary
+
+  p
+    font-size: 14px
+    line-height: 1.5em
+    margin: 10px
+
+.text-blob
+  width: 100%
+  text-align: center
+  cursor: pointer
+
+  p, h1
+    font-size: 1em
+    color: $font
+
