@@ -3,14 +3,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Community Science Museum - <?php print $PAGE_TITLE;?></title>
+        <title>Letha - <?php print $PAGE_TITLE;?></title>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="museum community science exhibitions robotics AI biology history cosmology" />
-        <meta name="description" content="Come see your local community science museum for all we have to offer, we have plenty of exhibitions about fantastic subjects like cosmlogy, biology and robotics" />
-        <link rel="stylesheet" href="https://use.typekit.net/gmx3mnm.css">
+        <meta name="keywords" content="<?php print $KEYWORDS;?>" />
+        <meta name="description" content="<?php print $DESCRIPTION;?>" />
+<!--        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">-->
+        <link href="https://fonts.googleapis.com/css?family=Lato|Parisienne" rel="stylesheet">
         <link rel="stylesheet" href="css/base.css">
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -20,9 +21,8 @@
 
     </head>
     <body>
-       
 
-
+        <?php if ($CURRENT_PAGE == "Index") {include("includes/index_header.php"); } else {include("includes/header.php");};?>
 
         <?php startblock('content') ?>
 
