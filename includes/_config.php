@@ -7,21 +7,21 @@ switch ($_SERVER["SCRIPT_NAME"]) {
         $KEYWORDS = "";
         $DESCRIPTION = "";
         break;
-    case "/visit.php":
-        $CURRENT_PAGE = "Visit Us";
-        $PAGE_TITLE = "Visit Us";
+    case "/about.php":
+        $CURRENT_PAGE = "About";
+        $PAGE_TITLE = "About Us";
         $KEYWORDS = "";
         $DESCRIPTION = "";
         break;
-    case "/exhibitions.php":
-        $CURRENT_PAGE = "Exhibitions";
-        $PAGE_TITLE = "Our Exhibitions";
+    case "/products.php":
+        $CURRENT_PAGE = "Products";
+        $PAGE_TITLE = "Our Selection of Products";
         $KEYWORDS = "";
         $DESCRIPTION = "";
         break;
-    case "/involvement.php":
-        $CURRENT_PAGE = "Involvement";
-        $PAGE_TITLE = "Get Involved";
+    case "/faq.php":
+        $CURRENT_PAGE = "FAQ";
+        $PAGE_TITLE = "Frequently Asked Questions";
         $KEYWORDS = "";
         $DESCRIPTION = "";
         break;

@@ -28,12 +28,54 @@
 
         <?php endblock() ?>
 
-        <footer>
-            <a class="nav-link <?php if ($CURRENT_PAGE == "Index") {?>active<?php }?>" href="index.php" title="Home">Home</a>
-            <a class="nav-link <?php if ($CURRENT_PAGE == "Exhibitions") {?>active<?php }?>" href="exhibitions.php" title="Exhibition spaces">Exhibitions</a>
-            <a class="nav-link <?php if ($CURRENT_PAGE == "Involvement") {?>active<?php }?>" href="involvement.php" title="Get involved with the museum">Get Involved</a>
-            <a class="nav-link <?php if ($CURRENT_PAGE == "Contact") {?>active<?php }?>" href="contact.php" title="Contact Us">Contact Us</a>
-            <a class="nav-link <?php if ($CURRENT_PAGE == "Visit Us") {?>active<?php }?>" href="visit.php" title="Visit Us">Visit Us</a>
+        <footer class="margin-top-200">
+            <div class="site-map">
+                <div class="link-container">
+                    <a href="/products.php">Shoe Types</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                </div>
+                <div class="link-container">
+                    <a href="/products.php">Accessories</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                </div>
+                <div class="link-container">
+                    <a href="/about.php">About Us</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                </div>
+                <div class="link-container">
+                    <a href="/faq.php">FAQ</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                </div>
+                <div class="link-container">
+                    <a href="/contact.php">Contact Us</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                    <a href="">Test Link</a>
+                </div>
+            </div>
         </footer>
 
         <?php startblock('scripts') ?>
