@@ -1,7 +1,7 @@
 <header class="header">
     <div class="header-content">
 
-        <h1 class="logo">Letha</h1>
+        <h1 class="logo"><a href="/">Letha</a></h1>
 
         <nav class="nav">
             <a href="/"><h2 class="nav-element <?php if ($CURRENT_PAGE == "Index") {?>active<?php }?>">Home</h2></a>

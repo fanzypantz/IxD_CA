@@ -1,16 +1,5 @@
 <?php include 'layout.php' ?>
 
-<?php startblock('head') ?>
-
-
-
-<?php endblock() ?>
-
-<?php startblock('scripts') ?>
-
-
-<?php endblock() ?>
-
 <?php startblock('content') ?>
 
 <div class="mini-container" style="margin-top: 75px">
@@ -24,7 +13,7 @@
         <div class="product-container">
             <div class="product">
                 <img src="/images/shoes01.jpg" alt="">
-                <a href="">
+                <a href="/products.php#oxford">
                     <div class="text">
                         <h2 class="title"><?php echo SHOES[0]['title'] ?></h2>
                         <h3>From <?php echo SHOES[0]['price'] ?>$</h3>
@@ -38,7 +27,7 @@
             </div>
             <div class="product">
                 <img src="/images/shoes02.jpg" alt="">
-                <a href="">
+                <a href="/products.php#brouge">
                     <div class="text">
                         <h2 class="title"><?php echo SHOES[1]['title'] ?></h2>
                         <h3>From <?php echo SHOES[1]['price'] ?>$</h3>
@@ -52,7 +41,7 @@
             </div>
             <div class="product">
                 <img src="/images/shoes03.jpg" alt="">
-                <a href="">
+                <a href="/products.php#oxford">
                     <div class="text">
                         <h2 class="title"><?php echo SHOES[2]['title'] ?></h2>
                         <h3>From <?php echo SHOES[2]['price'] ?>$</h3>
@@ -78,7 +67,7 @@
         <div class="product-container">
             <div class="product">
                 <img src="/images/shoes04.jpg" alt="">
-                <a href="">
+                <a href="/products.php#derbies">
                     <div class="text">
                         <h2 class="title"><?php echo SHOES[3]['title'] ?></h2>
                         <h3>From <?php echo SHOES[3]['price'] ?>$</h3>
@@ -91,11 +80,11 @@
                 </svg>
             </div>
             <div class="product">
-                <img src="/images/shoes05.jpg" alt="">
-                <a href="">
+                <img src="/images/wallet.jpg" alt="">
+                <a href="/products.php#accessories">
                     <div class="text">
-                        <h2 class="title"><?php echo SHOES[4]['title'] ?></h2>
-                        <h3>From <?php echo SHOES[4]['price'] ?>$</h3>
+                        <h2 class="title">Wallet</h2>
+                        <h3>From 49$</h3>
                     </div>
                 </a>
             </div>
@@ -105,11 +94,11 @@
                 </svg>
             </div>
             <div class="product">
-                <img src="/images/shoes06.jpg" alt="">
-                <a href="">
+                <img src="/images/belt.jpg" alt="">
+                <a href="/products.php#accessories">
                     <div class="text">
-                        <h2 class="title"><?php echo SHOES[5]['title'] ?></h2>
-                        <h3>From <?php echo SHOES[5]['price'] ?>$</h3>
+                        <h2 class="title">Welsh Belt</h2>
+                        <h3>From 39$</h3>
                     </div>
                 </a>
             </div>
@@ -123,7 +112,7 @@
             <div class="overlay-image">
                 <img src="/images/history.jpg" alt="">
                 <div class="center-text">
-                    <h2>History</h2>
+                    <a href="/about.php#history"><h2>History</h2></a>
                 </div>
             </div>
             <div class="info">
@@ -145,7 +134,7 @@
             <div class="overlay-image">
                 <img src="/images/craftsmanship.jpg" alt="">
                 <div class="center-text">
-                    <h2>Craftsmanship</h2>
+                    <a href="/about.php#craftsmanship"><h2>Craftsmanship</h2></a>
                 </div>
             </div>
         </div>

@@ -16,8 +16,11 @@ a, h1, h2, h3, h4, p
   color: white
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5)
 
-a:hover h2, a:hover p, a:hover
+a:hover p, a:hover
   color: #ababab
+
+input, textarea
+  font-family: 'Lato', sans-serif
 
 h1, h2, h3, h4
   font-family: 'Parisienne', cursive
@@ -54,6 +57,7 @@ h1, h2, h3, h4
   transform: translate(-100px, 0) rotate( -5deg )
 
 .content-level
+  max-width: 1200px
   display: flex
   flex-direction: column
   position: absolute
@@ -64,13 +68,14 @@ h1, h2, h3, h4
   transform: translate(-50%, -50%) rotate( 5deg )
 
 .content
+  -webkit-backface-visibility: hidden
   position: absolute
   top: 50%
   left: 50%
   transform: translate(-50%, -50%)
 
 footer
-  height: 500px
+  height: 400px
   background-color: $primary
 
   .site-map
@@ -84,12 +89,12 @@ footer
     .link-container
       display: flex
       flex-direction: column
-      justify-content: space-around
       align-items: center
-      height: 60%
+      height: 45%
       width: calc(100% / 5)
 
       a
+        margin: 5px auto
         text-decoration: none
         &:first-child
           font-size: 1.4em
@@ -103,6 +108,10 @@ footer
     font-family: 'Lato', sans-serif
     font-size: 1.6em
     margin: 0
+
+    &:hover
+      color: #ababab
+
   .horizontal-line
     height: 12px
     svg
@@ -130,11 +139,26 @@ header
     margin: 0 20px
 
 .social
+  margin-bottom: 40px
+
   h3
+    margin: 10px auto
     font-size: 1.2em
+
+.social-icons
+  a
+    margin: 0 5px
+    text-decoration: none
+
+    &:first-child
+      margin-left: 0
 
 .active
   color: gray
+
+.search
+  #shopping-cart:hover, #search-glass:hover
+    cursor: pointer
 
 
 .header
@@ -238,14 +262,6 @@ header
     width: 100%
     overflow: hidden
 
-    .overlay
-      position: absolute
-      top: 0
-      left: 0
-      width: 100%
-      height: 100%
-      background-color: $primary-opacity45
-
     .text
       background-color: $primary-opacity45
       z-index: 10
@@ -259,6 +275,11 @@ header
       width: 100%
       height: 100%
       text-align: center
+      cursor: pointer
+      transition: background-color 250ms
+
+      &:hover
+        background-color: $primary-opacity
 
       h3
         font-size: 1.5em
@@ -336,6 +357,10 @@ header
   h2
     text-decoration: underline
 
+    &:hover
+      color: #ababab
+
+
   .info
     width: 50%
     .description
@@ -378,3 +403,235 @@ header
         margin: 0 auto
         width: 350px
         border-radius: 50%
+
+
+.product-details
+  -webkit-backface-visibility: hidden
+  align-items: center
+  justify-content: space-between
+  width: 60vw
+  max-width: 1200px
+  height: 70%
+
+  .breadcrumb
+    align-self: flex-start
+
+  .buttons
+    margin-top: auto
+
+    .product-button
+      margin-top: 20px
+      width: 190px
+      height: 40px
+      background-color: transparent
+      color: white
+      border: 2px solid white
+      cursor: pointer
+
+      &:hover
+        background-color: white
+        border: 2px solid $primary
+        color: $primary
+
+      &:focus
+        border: 2px solid cornflowerblue
+        background-color: transparent
+        color: white
+
+      &:active
+        border: 2px solid gray
+        background-color: $primary
+        color: white
+
+  .product-page
+    width: 100%
+    height: 60%
+    display: flex
+    justify-content: center
+    align-items: center
+
+    .product-description
+      height: 100%
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+
+    .vertical-line
+      height: 100%
+
+    .sub-title
+      font-size: 0.8em
+      color: #878787
+
+    .size
+      margin-top: auto
+
+    .sizes
+      display: flex
+
+      .size-container
+        border: 2px solid white
+        width: 42px
+        height: 42px
+        margin: 5px 10px
+
+        &:hover
+          cursor: pointer
+
+        p
+          font-size: 12px
+          text-align: center
+          height: 42px
+          line-height: 42px
+
+        &:first-child
+          margin: 5px 10px 5px 0
+
+    .name
+      font-size: 2em
+      margin: 0
+
+    .description
+      font-size: 0.8em
+
+    p
+      margin: 0
+
+    .price
+      margin-top: 20px
+      font-size: 1.4em
+      font-family: 'Parisienne', cursive
+
+    .product-image
+      height: 100%
+      object-fit: cover
+      object-position: 50% 50%
+
+    .product-image, .product-description
+      width: calc(50% - 32px)
+
+.about
+  -webkit-backface-visibility: hidden
+  justify-content: center
+  align-items: center
+  text-align: center
+
+  .hello
+    color: #B5815A
+
+  .we-are
+    font-size: 2em
+
+  p
+    margin: 0
+    width: 70%
+    font-size: 1.8em
+    font-family: 'Parisienne', cursive
+
+  .about-title
+    font-family: 'Lato', sans-serif
+    margin: 0
+
+.store
+  -webkit-backface-visibility: hidden
+  width: 100%
+  height: 100%
+  position: relative
+  overflow: hidden
+
+
+  .img-container
+    width: 100%
+    height: 122%
+    transform: translateY(-90px) rotate(5deg)
+
+  .store-image, .map-image
+    width: 50%
+    height: 100%
+    object-fit: cover
+    object-position: 50% 50%
+
+  .map-image
+    float: right
+
+  .location
+    position: absolute
+    transform-origin: bottom left
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 75px
+    background-color: $primary-opacity
+
+    p
+      font-family: 'Parisienne', cursive
+      font-size: 1.6em
+      margin: 0
+      padding: 0
+      line-height: 75px
+      height: 75px
+      text-align: center
+
+
+.contact
+  -webkit-backface-visibility: hidden
+  flex-direction: row
+  justify-content: center
+  align-items: center
+
+  .contact-info, .contact-form
+    height: 50%
+    width: 55%
+    display: flex
+    flex-direction: column
+
+  input[type="text"]
+    height: 40px
+
+  input[type="button"]
+    height: 40px
+    width: 200px
+    border: 2px solid white
+    background-color: white
+    color: black
+    font-weight: 700
+    font-size: 1.2em
+    font-family: 'Parisienne', cursive
+    align-self: flex-end
+
+    &:hover
+      border: 2px solid white
+      background-color: $primary-opacity
+      color: white
+      cursor: pointer
+
+    &:active
+      background-color: gray
+
+  textarea
+    padding-top: 10px
+    height: 100px
+    resize: none
+
+  .contact-info
+    justify-content: center
+    align-items: flex-start
+
+    h3, p
+      margin: 10px 0
+
+  input[type="text"], textarea
+    padding-left: 10px
+    margin: 10px auto
+    width: calc(100% - 14px)
+    color: white
+    background-color: $primary
+    border: 2px solid white
+
+.about
+  h2
+    margin: 0
+
+  p
+    font-family: 'Lato', sans-serif
+    font-size: 1.2em

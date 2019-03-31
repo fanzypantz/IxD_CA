@@ -4,32 +4,32 @@ switch ($_SERVER["SCRIPT_NAME"]) {
     case "/contact.php":
         $CURRENT_PAGE = "Contact";
         $PAGE_TITLE = "Contact Us";
-        $KEYWORDS = "";
-        $DESCRIPTION = "";
+        $KEYWORDS = "contact email social-media";
+        $DESCRIPTION = "Contact Us!";
         break;
     case "/about.php":
         $CURRENT_PAGE = "About";
         $PAGE_TITLE = "About Us";
-        $KEYWORDS = "";
-        $DESCRIPTION = "";
+        $KEYWORDS = "history story craftsmanship vision ideals";
+        $DESCRIPTION = "Our History";
         break;
     case "/products.php":
         $CURRENT_PAGE = "Products";
         $PAGE_TITLE = "Our Selection of Products";
-        $KEYWORDS = "";
-        $DESCRIPTION = "";
+        $KEYWORDS = "brouge oxford derbies wallets belts polish";
+        $DESCRIPTION = "Our Selection of Products";
         break;
     case "/faq.php":
         $CURRENT_PAGE = "FAQ";
         $PAGE_TITLE = "Frequently Asked Questions";
-        $KEYWORDS = "";
-        $DESCRIPTION = "";
+        $KEYWORDS = "FAQ frequently asked questions";
+        $DESCRIPTION = "Frequently Asked Questions";
         break;
     default:
         $CURRENT_PAGE = "Index";
-        $PAGE_TITLE = "Welcome to your local Community Science Museum";
-        $KEYWORDS = "test";
-        $DESCRIPTION = "test";
+        $PAGE_TITLE = "Sustainable Leather Craftsmanship";
+        $KEYWORDS = "sustainable letha leather craftsmanship belt wallet shoes derbies oxford brouge hiking";
+        $DESCRIPTION = "Sustainable Leather Craftsmanship";
 }
 
 const SHOES = [
@@ -69,6 +69,24 @@ const SHOES = [
 		'sizes' => [6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 10.0, 10.5, 11.0, 11.5, 12.0],
 		'price' => 399,
 	],
+    [
+        'title' => "PINZOLO DARK BROWN",
+        'tag' => "Hand Antiqued Leather Adelaide Oxford Shoe",
+        'category' => "shoes",
+        'subCategory' => "oxford",
+        'image' => "",
+        'sizes' => [6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 10.0, 10.5, 11.0, 11.5, 12.0],
+        'price' => 399,
+    ],
+    [
+        'title' => "PINZOLO BLACK",
+        'tag' => "Calf Leather Adelaide Oxford Shoe",
+        'category' => "shoes",
+        'subCategory' => "oxford",
+        'image' => "",
+        'sizes' => [6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 10.0, 10.5, 11.0, 11.5, 12.0],
+        'price' => 399,
+    ],
 	[
 		'title' => "EXMINSTER DARK TAN",
 		'tag' => "Tamponato Calf Leather Derby Brogue",
@@ -105,6 +123,24 @@ const SHOES = [
 		'sizes' => [6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 10.0, 10.5, 11.0, 11.5, 12.0],
 		'price' => 399,
 	],
+    [
+        'title' => "LOMASO DARK TAN",
+        'tag' => "Hand Antiqued Leather Oxford Shoe",
+        'category' => "shoes",
+        'subCategory' => "Brogue",
+        'image' => "",
+        'sizes' => [6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 10.0, 10.5, 11.0, 11.5, 12.0],
+        'price' => 399,
+    ],
+    [
+        'title' => "LOMASO BLACK",
+        'tag' => "Calf Leather/Suede Oxford Shoe",
+        'category' => "shoes",
+        'subCategory' => "Brogue",
+        'image' => "",
+        'sizes' => [6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 10.0, 10.5, 11.0, 11.5, 12.0],
+        'price' => 399,
+    ],
 	[
 		'title' => "PENDOMER BLACK",
 		'tag' => "Calf Leather Derby Shoe",
@@ -141,5 +177,23 @@ const SHOES = [
 		'sizes' => [6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 10.0, 10.5, 11.0, 11.5, 12.0],
 		'price' => 399,
 	],
+    [
+        'title' => "LATHERTON BLACK",
+        'tag' => "Hand Finished Leather Derby Brogue",
+        'category' => "shoes",
+        'subCategory' => "Derbies",
+        'image' => "",
+        'sizes' => [6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 10.0, 10.5, 11.0, 11.5, 12.0],
+        'price' => 399,
+    ],
+    [
+        'title' => "SAUNDERS DARK TAN",
+        'tag' => "Calf Leather Derby Brogue",
+        'category' => "shoes",
+        'subCategory' => "Derbies",
+        'image' => "",
+        'sizes' => [6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 10.0, 10.5, 11.0, 11.5, 12.0],
+        'price' => 399,
+    ],
 ];
 ?>

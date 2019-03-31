@@ -32,48 +32,27 @@
             <div class="site-map">
                 <div class="link-container">
                     <a href="/products.php">Shoe Types</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
+                    <a href="">Oxford</a>
+                    <a href="">Brouge</a>
+                    <a href="">Derbies</a>
+                    <a href="">Hiking</a>
                 </div>
                 <div class="link-container">
                     <a href="/products.php">Accessories</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
+                    <a href="">Belts</a>
+                    <a href="">Polish</a>
+                    <a href="">Wallets</a>
                 </div>
                 <div class="link-container">
                     <a href="/about.php">About Us</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                </div>
-                <div class="link-container">
-                    <a href="/faq.php">FAQ</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
+                    <a href="">Vision</a>
+                    <a href="">History</a>
+                    <a href="">Business Goals</a>
                 </div>
                 <div class="link-container">
                     <a href="/contact.php">Contact Us</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
-                    <a href="">Test Link</a>
+                    <a href="">Store Location</a>
+                    <a href="">Contact Us</a>
                 </div>
             </div>
         </footer>
