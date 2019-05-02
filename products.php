@@ -8,17 +8,20 @@
 
 <?php startblock('content') ?>
 
-<div id="oxford" class="mini-container margin-top-200">
+<div id="oxford" class="mini-container margin-top-140">
+    <div class="rotated-background"></div>
     <div class="content">
         <h2>Oxford</h2>
     </div>
 </div>
 
 <section class="big-container">
+    <div class="rotated-background"></div>
+
     <div class="content-level product-details"  style="display: none;">
 
         <div class="breadcrumb">
-            <p>Categories > <a class="back">Oxford</a> > Stoneygate Dark Tan</p>
+            <p><a class="back">Categories</a> > <a class="back">Oxford</a> > Stoneygate Dark Tan</p>
         </div>
 
         <div id="product-01" class="product-page">
@@ -66,7 +69,7 @@
         </div>
         <div class="buttons">
             <button class="product-button back">Back</button>
-            <button class="product-button">Add To Cart</button>
+            <button class="product-button add-cart">Add To Cart</button>
         </div>
     </div>
 
@@ -125,17 +128,19 @@
     </div>
 </section>
 
-<div id="brouge" class="mini-container margin-top-200">
+<div id="brouge" class="mini-container margin-top-140">
+    <div class="rotated-background"></div>
     <div class="content">
         <h2>Brouge</h2>
     </div>
 </div>
 
 <section class="big-container">
+    <div class="rotated-background"></div>
     <div class="content-level product-details"  style="display: none;">
 
         <div class="breadcrumb">
-            <p>Categories > <a class="back">Oxford</a> > Stoneygate Dark Tan</p>
+            <p><a class="back">Categories</a> > <a class="back">Brogue</a> > Stoneygate Dark Tan</p>
         </div>
 
         <div id="product-01" class="product-page">
@@ -183,7 +188,7 @@
         </div>
         <div class="buttons">
             <button class="product-button back">Back</button>
-            <button class="product-button">Add To Cart</button>
+            <button class="product-button add-cart">Add To Cart</button>
         </div>
     </div>
 
@@ -242,17 +247,19 @@
     </div>
 </section>
 
-<div id="derbies" class="mini-container margin-top-200">
+<div id="derbies" class="mini-container margin-top-140">
+    <div class="rotated-background"></div>
     <div class="content">
         <h2>Derbies</h2>
     </div>
 </div>
 
 <section class="big-container">
+    <div class="rotated-background"></div>
     <div class="content-level product-details"  style="display: none;">
 
         <div class="breadcrumb">
-            <p>Categories > <a class="back">Oxford</a> > Stoneygate Dark Tan</p>
+            <p><a class="back">Categories</a> > <a class="back">Derbies</a> > Stoneygate Dark Tan</p>
         </div>
 
         <div id="product-01" class="product-page">
@@ -300,7 +307,7 @@
         </div>
         <div class="buttons">
             <button class="product-button back">Back</button>
-            <button class="product-button">Add To Cart</button>
+            <button class="product-button add-cart">Add To Cart</button>
         </div>
     </div>
 
@@ -359,17 +366,19 @@
     </div>
 </section>
 
-<div id="accessories" class="mini-container margin-top-200">
+<div id="accessories" class="mini-container margin-top-140">
+    <div class="rotated-background"></div>
     <div class="content">
         <h2>Accessories</h2>
     </div>
 </div>
 
 <section class="big-container">
+    <div class="rotated-background"></div>
     <div class="content-level product-details"  style="display: none;">
 
         <div class="breadcrumb">
-            <p>Categories > <a class="back">Accessories</a> > Welsh Wallet</p>
+            <p><a class="back">Categories</a> > <a class="back">Accessories</a> > Welsh Wallet</p>
         </div>
 
         <div id="product-01" class="product-page">
@@ -402,7 +411,7 @@
         </div>
         <div class="buttons">
             <button class="product-button back">Back</button>
-            <button class="product-button">Add To Cart</button>
+            <button class="product-button add-cart">Add To Cart</button>
         </div>
     </div>
 

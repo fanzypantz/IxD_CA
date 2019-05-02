@@ -3,7 +3,8 @@
 
 <?php startblock('content') ?>
 
-<div class="mini-container margin-top-200">
+<div class="mini-container margin-top-140">
+    <div class="rotated-background"></div>
     <div class="content">
         <h2>Our Store</h2>
     </div>
@@ -22,13 +23,15 @@
     </div>
 </div>
 
-<div class="mini-container margin-top-200">
+<div class="mini-container margin-top-140">
+    <div class="rotated-background"></div>
     <div class="content">
         <h2>Contact Information</h2>
     </div>
 </div>
 
 <div class="big-container">
+    <div class="rotated-background"></div>
     <div class="content-level contact">
         <div class="contact-info">
             <h3>Get in touch with us!</h3>

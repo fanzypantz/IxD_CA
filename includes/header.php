@@ -5,10 +5,10 @@
 
         <nav class="nav">
             <a href="/"><h2 class="nav-element <?php if ($CURRENT_PAGE == "Index") {?>active<?php }?>">Home</h2></a>
-            <a href="/products.php"><h2 class="nav-element <?php if ($CURRENT_PAGE == "products") {?>active<?php }?>">Products</h2></a>
-            <a href="/about.php"><h2 class="nav-element <?php if ($CURRENT_PAGE == "about") {?>active<?php }?>">About Us</h2></a>
-            <a href="/contact.php"> <h2 class="nav-element <?php if ($CURRENT_PAGE == "contact") {?>active<?php }?>">Contact</h2></a>
-            <a href="/faq.php"><h2 class="nav-element <?php if ($CURRENT_PAGE == "faq") {?>active<?php }?>">FAQ</h2></a>
+            <a href="/products.php"><h2 class="nav-element <?php if ($CURRENT_PAGE == "Products") {?>active<?php }?>">Products</h2></a>
+            <a href="/about.php"><h2 class="nav-element <?php if ($CURRENT_PAGE == "About") {?>active<?php }?>">About Us</h2></a>
+            <a href="/contact.php"> <h2 class="nav-element <?php if ($CURRENT_PAGE == "Contact") {?>active<?php }?>">Contact</h2></a>
+            <a href="/faq.php"><h2 class="nav-element <?php if ($CURRENT_PAGE == "FAQ") {?>active<?php }?>">FAQ</h2></a>
         </nav>
 
         <div class="search">

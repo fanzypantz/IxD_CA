@@ -22,13 +22,13 @@
     </head>
     <body>
 
-        <?php if ($CURRENT_PAGE == "Index") {include("includes/index_header.php"); } else {include("includes/header.php");};?>
-
+<!--        --><?php //if ($CURRENT_PAGE == "Index") {include("includes/index_header.php"); } else {include("includes/header.php");};?>
+        <?php include("includes/header.php"); ?>
         <?php startblock('content') ?>
 
         <?php endblock() ?>
 
-        <footer class="margin-top-200">
+        <footer class="margin-top-140">
             <div class="site-map">
                 <div class="link-container">
                     <a href="/products.php">Shoe Types</a>
