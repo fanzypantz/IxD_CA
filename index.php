@@ -11,43 +11,24 @@
 <section class="big-container">
     <div class="content-level">
         <div class="product-container">
-            <div class="product">
-                <img src="/images/shoes01.jpg" alt="">
-                <a href="/products.php#oxford">
-                    <div class="text">
-                        <h2 class="title"><?php echo SHOES[0]['title'] ?></h2>
-                        <h3>From <?php echo SHOES[0]['price'] ?>$</h3>
+            <?php for ($x = 0; $x <= 2; $x++) { ?>
+                <div class="product">
+                    <img src="<?php echo SHOES[$x]['image'] ?>" alt="">
+                    <a href="/products.php#<?php echo SHOES[$x]['subCategory'] ?>">
+                        <div class="text">
+                            <h2 class="title"><?php echo SHOES[$x]['title'] ?></h2>
+                            <h3>From <?php echo SHOES[$x]['price'] ?>$</h3>
+                        </div>
+                    </a>
+                </div>
+                <?php if( $x !== 2 ) {?>
+                    <div class="vertical-line">
+                        <svg  xmlns="http://www.w3.org/2000/svg">
+                            <line x1="2px" y1="10%" x2="2px" y2="90%" />
+                        </svg>
                     </div>
-                </a>
-            </div>
-            <div class="vertical-line">
-                <svg  xmlns="http://www.w3.org/2000/svg">
-                    <line x1="2px" y1="10%" x2="2px" y2="90%" />
-                </svg>
-            </div>
-            <div class="product">
-                <img src="/images/shoes02.jpg" alt="">
-                <a href="/products.php#brouge">
-                    <div class="text">
-                        <h2 class="title"><?php echo SHOES[1]['title'] ?></h2>
-                        <h3>From <?php echo SHOES[1]['price'] ?>$</h3>
-                    </div>
-                </a>
-            </div>
-            <div class="vertical-line">
-                <svg  xmlns="http://www.w3.org/2000/svg">
-                    <line x1="2px" y1="10%" x2="2px" y2="90%" />
-                </svg>
-            </div>
-            <div class="product">
-                <img src="/images/shoes03.jpg" alt="">
-                <a href="/products.php#oxford">
-                    <div class="text">
-                        <h2 class="title"><?php echo SHOES[2]['title'] ?></h2>
-                        <h3>From <?php echo SHOES[2]['price'] ?>$</h3>
-                    </div>
-                </a>
-            </div>
+                <?php } ?>
+            <?php } ?>
         </div>
 
         <div class="horizontal-line">
@@ -65,43 +46,24 @@
         </div>
 
         <div class="product-container">
-            <div class="product">
-                <img src="/images/shoes04.jpg" alt="">
-                <a href="/products.php#derbies">
-                    <div class="text">
-                        <h2 class="title"><?php echo SHOES[3]['title'] ?></h2>
-                        <h3>From <?php echo SHOES[3]['price'] ?>$</h3>
+            <?php for ($x = 3; $x <= 5; $x++) { ?>
+                <div class="product">
+                    <img src="<?php echo SHOES[$x]['image'] ?>" alt="">
+                    <a href="/products.php#<?php echo SHOES[$x]['subCategory'] ?>">
+                        <div class="text">
+                            <h2 class="title"><?php echo SHOES[$x]['title'] ?></h2>
+                            <h3>From <?php echo SHOES[$x]['price'] ?>$</h3>
+                        </div>
+                    </a>
+                </div>
+                <?php if( $x !== 5 ) {?>
+                    <div class="vertical-line">
+                        <svg  xmlns="http://www.w3.org/2000/svg">
+                            <line x1="2px" y1="10%" x2="2px" y2="90%" />
+                        </svg>
                     </div>
-                </a>
-            </div>
-            <div class="vertical-line">
-                <svg  xmlns="http://www.w3.org/2000/svg">
-                    <line x1="2px" y1="10%" x2="2px" y2="90%" />
-                </svg>
-            </div>
-            <div class="product">
-                <img src="/images/wallet.jpg" alt="">
-                <a href="/products.php#accessories">
-                    <div class="text">
-                        <h2 class="title">Wallet</h2>
-                        <h3>From 49$</h3>
-                    </div>
-                </a>
-            </div>
-            <div class="vertical-line">
-                <svg  xmlns="http://www.w3.org/2000/svg">
-                    <line x1="2px" y1="10%" x2="2px" y2="90%" />
-                </svg>
-            </div>
-            <div class="product">
-                <img src="/images/belt.jpg" alt="">
-                <a href="/products.php#accessories">
-                    <div class="text">
-                        <h2 class="title">Welsh Belt</h2>
-                        <h3>From 39$</h3>
-                    </div>
-                </a>
-            </div>
+                <?php } ?>
+            <?php } ?>
         </div>
     </div>
 </section>
