@@ -16,6 +16,10 @@
             <input id="search" type="text" placeholder="Search">
             <img id="search-glass" src="/images/search.svg" alt="">
         </div>
+
+        <div id="menu-button" class="mobile-button">
+            <img src="/images/menu.svg" alt="">
+        </div>
     </div>
 
 </header>

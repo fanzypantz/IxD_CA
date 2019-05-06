@@ -9,20 +9,28 @@ $( document ).ready(function() {
         let $this = $(this);
 
         if ( !$this.hasClass('open') ) {
-
-            $this.find('.faq-title').fadeOut(250);
+            $this.find('.faq-title').css("transform", "translate(-50%, -50%) rotate(0)");
             $this.animate({
                 height: '500px',
             }, 250, function() {
-                $this.find('.faq-info').fadeIn("fast");
+                $this.find('.faq-text').fadeIn("fast");
                 $this.addClass('open');
             });
         } else {
-            $this.find('.faq-info').fadeOut(250);
+            let height = null;
+            if ($(window).width() > 775) {
+                $this.find('.faq-title').css("transform", "translate(-50%, -50%) rotate(-5deg)");
+            }
+            console.log($(window).width());
+            if ($(window).width() > 583) {
+                height = '75px';
+            } else {
+                height = '150px'
+            }
+            $this.find('.faq-text').fadeOut("fast");
             $this.animate({
-                height: '75px',
+                height: height,
             }, 250, function() {
-                $this.find('.faq-title').fadeIn("fast");
                 $this.removeClass('open');
             });
         }

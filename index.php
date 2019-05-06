@@ -149,21 +149,23 @@
                     <a href="/about.php#history"><h2>History</h2></a>
                 </div>
             </div>
+            <div class="vertical-line">
+                <svg  xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2px" y1="10%" x2="2px" y2="90%" />
+                </svg>
+            </div>
             <div class="info">
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
         </div>
-        <div class="horizontal-line dual">
-            <svg  xmlns="http://www.w3.org/2000/svg">
-                <line x1="10%" y1="32px" x2="90%" y2="32px" />
-            </svg>
-            <svg  xmlns="http://www.w3.org/2000/svg">
-                <line x1="10%" y1="32px" x2="90%" y2="32px" />
-            </svg>
-        </div>
         <div class="two-row history-index">
             <div class="info">
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="vertical-line">
+                <svg  xmlns="http://www.w3.org/2000/svg">
+                    <line x1="2px" y1="10%" x2="2px" y2="90%" />
+                </svg>
             </div>
             <div class="overlay-image">
                 <img src="/images/craftsmanship.jpg" alt="">
