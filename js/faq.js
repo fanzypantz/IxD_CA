@@ -1,7 +1,3 @@
-
-
-
-
 $( document ).ready(function() {
     $(".faq-container").on('click', function(event){
         event.stopPropagation();
@@ -34,8 +30,5 @@ $( document ).ready(function() {
                 $this.removeClass('open');
             });
         }
-
-
-
     });
 });

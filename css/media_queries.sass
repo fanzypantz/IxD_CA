@@ -20,16 +20,38 @@
 
 @media only screen and (max-width: 940px)
 
-  .header .header-content
-
-    .nav
-      display: none
-
-    .search
-      display: none
-
+  .header
     .mobile-button
       display: block
+
+    .header-content
+      width: 100%
+      flex-direction: column
+
+      .logo
+        margin: 5px 0
+
+      .nav
+        width: 100%
+        display: none
+
+        a
+          width: 100%
+          text-align: center
+
+        .nav-element
+          font-size: 1.2em
+          line-height: 50px
+          border-top: 2px solid white
+          border-bottom: 2px solid white
+          margin: 20px 0
+
+      .search
+        width: 100%
+        margin: 40px 0
+        display: none
+
+
 
   .content-level
     width: 95%

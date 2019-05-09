@@ -197,6 +197,14 @@ header a {
 .header .logo, .header .search {
   width: 20%;
 }
+.header .mobile-button {
+  position: absolute;
+  display: none;
+  width: 75px;
+  height: 75px;
+  top: 0;
+  right: 6%;
+}
 .header .header-content {
   width: 85%;
   height: 100%;
@@ -204,10 +212,6 @@ header a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.header .header-content .mobile-button {
-  display: none;
-  width: 100px;
 }
 .header .header-content .nav {
   width: 40%;
@@ -225,7 +229,7 @@ header a {
   overflow: hidden;
   background-color: rgba(62, 53, 52, 0.95);
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
-  width: calc(100% + 200px);
+  width: calc(100% + 189px);
   height: 75vh;
   position: relative;
   transform: translate(-100px, -90px) rotate(-5deg);
@@ -720,14 +724,35 @@ header a {
   }
 }
 @media only screen and (max-width: 940px) {
+  .header .mobile-button {
+    display: block;
+  }
+  .header .header-content {
+    width: 100%;
+    flex-direction: column;
+  }
+  .header .header-content .logo {
+    margin: 5px 0;
+  }
   .header .header-content .nav {
+    width: 100%;
     display: none;
+  }
+  .header .header-content .nav a {
+    width: 100%;
+    text-align: center;
+  }
+  .header .header-content .nav .nav-element {
+    font-size: 1.2em;
+    line-height: 50px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin: 20px 0;
   }
   .header .header-content .search {
+    width: 100%;
+    margin: 40px 0;
     display: none;
-  }
-  .header .header-content .mobile-button {
-    display: block;
   }
 
   .content-level {
